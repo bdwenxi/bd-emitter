@@ -75,5 +75,6 @@
             "default",
             "jest-spec-reporter"
         ]
-    }
+    },
+    "dependencies": {}
 }
