@@ -1,0 +1,29 @@
+{
+    "name": "bd-emitter",
+    "version": "1.0.0",
+    "license": "MIT",
+    "main": "dist/bd-emitter.umd.js",
+    "module": "dist/bd-emitter.esm.js",
+    "typings": "dist/typings/index.d.ts",
+    "scripts": {},
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.com"
+    },
+    "bugs": {
+        "url": "https://github.com/bdwenxi/bd-emitter/issues"
+    },
+    "author": {
+        "name": "bdwenxi",
+        "email": "bdwenxi@gmail.com"
+    },
+    "keywords": [
+        "emitter",
+        "events"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:bdwenxi/bd-emitter.git",
+        "directory": "packages/bd-emitter"
+    }
+}
