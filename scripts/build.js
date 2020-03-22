@@ -1,6 +1,6 @@
 /**
  * @file Build script
- * @author zhangwenxi(zhangwenxi@baidu.com)
+ * @author bdwenxi(bdwenxi@baidu.com)
  */
 
 // basic
@@ -132,7 +132,7 @@ const build = co.wrap(function* () {
     const targetDir = utils.pathResolve('./packages/bd-emitter/dist/typings/');
 
     yield fs.ensureDir(targetDir);
-    execa(`mv ${sourceDir} ${targetDir}`, {shell: true});
+    yield execa(`mv ${sourceDir} ${targetDir}`, {shell: true});
     rimraf.sync(utils.pathResolve('packages/bd-emitter/dist/packages'));
 });
 
