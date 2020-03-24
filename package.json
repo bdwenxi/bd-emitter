@@ -1,6 +1,6 @@
 {
     "name": "bd-emitter",
-    "description": "A simple emitter implementation based on typescript.",
+    "description": "A lightweight event emitter implementation base on typescript",
     "private": true,
     "workspaces": [
         "packages/*"

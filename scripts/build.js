@@ -1,6 +1,6 @@
 /**
  * @file Build script
- * @author bdwenxi(bdwenxi@baidu.com)
+ * @author bdwenxi(bdwenxi@gmail.com)
  */
 
 // basic
