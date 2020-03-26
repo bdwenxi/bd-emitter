@@ -1,6 +1,6 @@
 {
     "name": "bd-emitter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "main": "dist/bd-emitter.umd.js",
     "module": "dist/bd-emitter.esm.js",
