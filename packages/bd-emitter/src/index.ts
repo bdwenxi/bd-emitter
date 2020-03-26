@@ -2,8 +2,8 @@ interface IEventFunction extends Function {
     listener?: Function;
 }
 
-interface IEventsMap {
-    [name: string]: [IEventFunction, Object][];
+interface IEventsMap<C = Object> {
+    [name: string]: [IEventFunction, C][];
 }
 
 class EventEmitter {
@@ -35,7 +35,7 @@ class EventEmitter {
 
         cache.listener = listener;
 
-        this.on(name, cache);
+        this.on(name, cache, context);
         return this;
     }
 
