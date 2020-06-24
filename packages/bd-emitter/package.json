@@ -8,7 +8,7 @@
     "scripts": {},
     "publishConfig": {
         "access": "public",
-        "registry": "https://npm.pkg.github.com"
+        "registry": "https://npm.pkg.github.com/bdwenxi"
     },
     "bugs": {
         "url": "https://github.com/bdwenxi/bd-emitter/issues"
@@ -25,5 +25,6 @@
         "type": "git",
         "url": "git@github.com:bdwenxi/bd-emitter.git",
         "directory": "packages/bd-emitter"
-    }
+    },
+    "gitHead": "4c4bdedc615cc18f829eabb4e1850025cfffd291"
 }
