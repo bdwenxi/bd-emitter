@@ -18,7 +18,7 @@
         "events"
     ],
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/bdwenxi"
+        "registry": "https://npm.pkg.github.com"
     },
     "license": "MIT",
     "devDependencies": {
