@@ -1,8 +1,8 @@
-interface IEventFunction extends Function {
+export interface IEventFunction extends Function {
     listener?: Function;
 }
 
-interface IEventsMap<C = Object> {
+export interface IEventsMap<C = Object> {
     [name: string]: [IEventFunction, C][];
 }
 

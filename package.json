@@ -17,6 +17,9 @@
         "emitter",
         "events"
     ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
     "license": "MIT",
     "devDependencies": {
         "@types/co": "^4.6.2",
